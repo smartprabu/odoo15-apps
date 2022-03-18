@@ -13,7 +13,7 @@
     <t t-name="MultiUomWidget" owl="1">
         <div class="modal-dialog multi-uom">
             <div class="popup popup-product-creation">
-                <p class="title">Select Unit of Measure</p>
+                <p class="title">UOM</p>
                 <div>
                     <select class="uom" style="width:35%;height:30px;border-radius:5px;">
                         <t t-foreach='uom_list || []' t-as='uom' t-key="uom.id">
